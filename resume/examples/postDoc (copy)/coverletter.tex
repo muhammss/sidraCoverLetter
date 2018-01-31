@@ -1,0 +1,122 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%    PERSONAL INFORMATION
+%    Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{M. Salman}{Siddiqui}
+\position{Research Scientist{\enskip\cdotp\enskip}Doctoral Student}
+\address{Baldersveg 3B,  7033, Trondheim, Norway.}
+
+\mobile{(+47) 48-6280-35} 
+\email{muhammad.siddiqui@sintef.no, muhammad.siddiqui@ntnu.no}
+\linkedin{salmanSiddiqui}
+% \stackoverflow{SOid}{SOname}
+% \twitter{@twit}
+% \skype{skypeid}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%    LETTER INFORMATION
+%    All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+{Recruiting team}
+{Geophysical Institute}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Researcher in meteorology / wind energy at Geophysical Institute}
+% How the letter is opened
+\letteropening{Dear Sir/Madem,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+	
+	% Print the header with above personal informations
+	\makecvheader
+	
+	% Print the footer with 3 arguments(<left>, <center>, <right>)
+	% Leave any of these blank if they are not needed
+	\makecvfooter
+	{\today}
+	{M. Salman Siddiqui~~~·~~~Cover Letter}
+	{}
+	
+	% Print the title with above letter informations
+	\makelettertitle
+	
+	%-------------------------------------------------------------------------------
+	%    LETTER CONTENT
+	%-------------------------------------------------------------------------------
+	\begin{cvletter}
+		
+		\lettersection{About Me}
+		
+		I am applying for the available in the institute that was recently advertised on the website under the title Researcher in meteorology / wind energy at Geophysical Institute
+		
+		Currently, I am a final year doctorate student at Norwegian University of Sciences \& Technology. I am also working as a Research Scientist with SINTEF ICT Applied Mathematics group, which is the largest independent research organization throughout Scandinavia.  I am expected to finish my doctorate dissertation in December 2017, after which I will be delighted to join your group.
+		\lettersection{Why Me?}
+	
+	I consider myself an ideal candidate for the current position, which is because of my diverse educational background and unique skill set. As a student, I obtained state of the art Mechanical Engineering knowledge with the degrees from the top-notch institute within my region(NUST, ranked one university in Pakistan). On top of it, a doctorate in Applied Mathematics at the NTNU (department ranked in top 50 by the Academic ranking of world universities) has embedded the core perception of known science in a particularly good way. I put my knowledge at the forefront of research and demonstrated my capabilities on the projects of applied nature ranging from energy harvesting to offshore wind turbines, computational fluid dynamics analysis of aerospace applications, numerical modeling of weather systems and reduce order modeling of big data. I was part of the team who developed engineering software tools mainly based on object-oriented codes such as Python/C++.  I contributed to the development of in-house code within the group called IFEM (python library for the solution of Isogeometric finite element numerical codes for Navier-Stokes equation) and a Reduce order framework for high-fidelity simulation toolbox.
+	Overall I have got seven years of professional experience mainly related to numerical modeling of weather systems, CFD and analysis on big data. I have also been a mentor at different institutes which helped me in leading projects, deliver knowledge to graduate students and develop administrative skills. My current research database grew over 20  articles in international journals and conference proceeding, which speaks for my cutting-edge research capabilities and international exposure.
+		\lettersection{Why Geophysical Institute?}
+		The good reputation of Geophysical Institute with higher employees standards, diverse cultural environment, and cutting edge research facilities have motivated me to apply for the current position. I believe this position will help me acquire versatility needed to reach my full potential as a professional researcher. I consider myself ready for the challenges of the current position, and I am sure that I will contribute very positively to your dynamic research group.
+	\end{cvletter}
+	
+	
+	%-------------------------------------------------------------------------------
+	% Print the signature and enclosures with above letter informations
+	\makeletterclosing
+	
+\end{document}
