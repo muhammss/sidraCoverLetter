@@ -7,6 +7,7 @@ NE
 2
 3
 <<<<<<< HEAD
+
 Salman pagal hai
 =======
 Sidra pagal ha
